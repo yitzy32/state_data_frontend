@@ -1,5 +1,5 @@
 /* global Datamap axios */
-axios.get("http://localhost:3000/api/states").then(response => {
+axios.get("https://state-data-app.herokuapp.com/api/states").then(response => {
   var allTheStates = {};
   for (const state of response.data) {
     let currentState = {};
