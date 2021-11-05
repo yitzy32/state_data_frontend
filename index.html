@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>State Data</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js" defer></script>
   <script src="https://datamaps.github.io/scripts/0.4.4/datamaps.usa.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
   
   <script src="index.js" defer></script>
+  <style>
+    div {
+      position: relative;
+      width: 500px;
+      height: 300px;
+    }
+  </style>
 </head>
 <body>
-  <div id="map_election" style="position: relative; width: 500px; height: 300px;"></div>
+  <div id="map_election"></div>
 </body>
 </html>
